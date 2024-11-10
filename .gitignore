@@ -33,5 +33,4 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
-/workspaces/dblog/db/seeds.rb
 db/seeds.rb

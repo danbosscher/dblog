@@ -7,3 +7,10 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+# I'm following along with a tutorial and I'm not sure if this is the correct way to seed the database with the first admin user:
+ user = User.where(email: "daniel@289hq.com").find_or_initialize
+ user.update!(
+    password: "password",
+    password_confirmation: "password"
+ )
