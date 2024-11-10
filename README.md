@@ -1,13 +1,15 @@
-# README
+# dblog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple blog application. Demo at (https://zooi.org)[https://zooi.org)]
 
-Things you may want to cover:
-
-* Ruby version
+* Prerequisites
+Rails version: 8.0.0
+Rack version: 3.1.8
+Ruby version: ruby 3.3.4 (2024-07-09 revision be1089c8ec) +YJIT [x86_64-linux]
 
 * System dependencies
+
+Things you may want to cover:
 
 * Configuration
 
