@@ -1,0 +1,16 @@
+{
+    "configurations": [
+      {
+        "type": "rdbg",
+        "name": "Debug Rails server",
+        "request": "launch",
+        "script": "${workspaceFolder}/bin/rails",
+        "args": ["server"],
+        "useBundler": true,
+        "cwd": "${workspaceFolder}",
+        "env": {
+          "RAILS_ENV": "development"
+        }
+      }
+    ]
+  }
